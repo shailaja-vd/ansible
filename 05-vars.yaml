@@ -1,9 +1,9 @@
 - name: variables
   hosts: local
   connection: local
-  vars:
+  vars: # PLAY ievel variables
     COURSE: "DevOps with AWS"
-    DURATION: 120HURS
+    DURATION: 120HRS
     TRAINER: Sivakumar
   tasks:
   - name: print the variables
