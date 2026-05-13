@@ -33,7 +33,7 @@
 
   - name: convert upper to lower
     vars:
-      name: "sivakumar Reddy M"
+      name: "Sivakumar Reddy M"
     ansible,builtin.debug:
       msg: "Hello {{ name | lower }}"
 
